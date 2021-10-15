@@ -7,6 +7,11 @@ The purpose of this project was to expand the dataset to include the entire stoc
 
 ## Analysis and Results
 
+### Data Analysis
+In 2017, all but one stock had favorable returns. The only stock to see negatives in their returns was “TERP”. Despite having the least amount of Total Daily Volume, “DQ” saw the highest percentage of returns. See below for a more detailed breakdown of each stock’s results in 2017.
+
+In 2018, all but two stocks saw unfavorable returns. The only two stocks that saw positives in their returns were “ENPH” and “RUN”. “TERP” was the only stock to consistently fall in returns in both years. Refer below for a more detailed breakdown of each stock’s results in 2018.
+
 ### Pre-Code Refactor
 Before refactoring the code, the code run would take approximately .7 seconds to run for both the 2017 and 2018 datasets. See below:
 
@@ -15,7 +20,11 @@ Before refactoring the code, the code run would take approximately .7 seconds to
 ![Before Refactor 2018](Resources/BeforeRefactor2018.png)
 
 ### Post-Code Refactor
-Refactoring the code did end up resulting in faster run times for both -- approximately .1 seconds for both datasets. See below:
+See below for the refactored code:
+
+![Refactored Code](Resources/.png)
+
+All things considered, ~.7 seconds is already relatively quick. However, refactoring the code did end up resulting in faster run times, approximately .1 seconds, for both datasets. This is around 85% faster than previously. See below:
 
 ![After Refactor 2017](Resources/VBA_Challenge_2017.png)
 
