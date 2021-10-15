@@ -22,7 +22,7 @@ Before refactoring the code, the code run would take approximately .7 seconds to
 ### Post-Code Refactor
 See below for the refactored code:
 
-![Refactored Code](Resources/.png)
+![Refactored Code](Resources/RefactoredCode.png)
 
 All things considered, ~.7 seconds is already relatively quick. However, refactoring the code did end up resulting in faster run times, approximately .1 seconds, for both datasets. This is around 85% faster than previously. See below:
 
